@@ -1,0 +1,30 @@
+exports.index = (req, res) => {
+  res.render('index', {
+    title: 'Lab4',
+    message: 'My lab4'
+  });
+};
+
+exports.krupa = (req, res) => {
+  res.render('krupa', {
+    title: 'Krupa'
+  });
+};
+
+exports.jitendra = (req, res) => {
+  res.render('jitendra', {
+    title: 'Jitendra'
+});
+};
+
+exports.parul = (req, res) => {
+  res.render('parul', {
+    title : 'Parul'
+    });
+};
+
+exports.keisi = (req, res) => {
+  res.render('keisi', {
+    title : 'keisi'
+   });
+};
