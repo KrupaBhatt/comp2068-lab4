@@ -1,30 +1,34 @@
 exports.index = (req, res) => {
   res.render('index', {
     title: 'Lab4',
-    message: 'My lab4'
+    message: 'Welcome to my lab4'
   });
 };
 
 exports.krupa = (req, res) => {
   res.render('krupa', {
-    title: 'Krupa'
+    title: 'Krupa',
+    message: 'Hello, I am Krupa!'
   });
 };
 
 exports.jitendra = (req, res) => {
   res.render('jitendra', {
-    title: 'Jitendra'
+    title: 'Jitendra',
+    message: 'Hi, I am the Dad!'
 });
 };
 
 exports.parul = (req, res) => {
   res.render('parul', {
-    title : 'Parul'
+    title : 'Parul',
+    message: 'Hey, I am the Mom!'
     });
 };
 
 exports.keisi = (req, res) => {
   res.render('keisi', {
-    title : 'keisi'
+    title : 'keisi',
+    message: 'Hola, I am the cute pet!'
    });
 };
